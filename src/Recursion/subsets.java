@@ -16,7 +16,7 @@ public class subsets {
     }
 
     public static void main(String[] args) {
-        String s = "abcd";
+        String s = "anish";
         arr = new ArrayList<>();  // reset
         printSubset(0,s,"");
         System.out.println(arr);
