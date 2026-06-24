@@ -1,4 +1,4 @@
-package loops;
+package Loops;
 
 public class tableOf19 {
     public static void main(String[] args) {

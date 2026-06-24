@@ -1,4 +1,4 @@
-package loops;
+package Loops;
 
 public class oddNoprint {
     public static void main(String[] args) {

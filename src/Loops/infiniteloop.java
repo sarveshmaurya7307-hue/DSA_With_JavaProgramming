@@ -1,4 +1,4 @@
-package loops;
+package Loops;
 
 public class infiniteloop {
     public static void main(String[] args) {

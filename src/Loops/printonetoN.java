@@ -1,4 +1,4 @@
-package loops;
+package Loops;
 
 public class printonetoN {
     public static void main(String[] args) {
