@@ -1,7 +1,5 @@
 package sorting;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class transArray {
     public static void print(int[] arr) {
         for (int ele : arr) {
