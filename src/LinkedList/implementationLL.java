@@ -138,9 +138,11 @@ public class implementationLL {
 
       list.set(2,100);    // T.C - o(n)  in array t.c o(1)
       list.display();
+
       list.deleteAtHead();
       list.display();
       list.size();
+
       list.delete(3);
       list.display();
       list.size();
