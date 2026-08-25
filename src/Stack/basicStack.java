@@ -10,8 +10,9 @@ public class basicStack {
         st.push(20);
         st.push(30);
         st.push(40);
+        st.pop();
         System.out.println(st);
-        System.out.println(st.pop());
+        System.out.println(st.pop()); // it return the topmost ele and then remove it
         System.out.println(st.peek());
         System.out.println(st.isEmpty());
         System.out.println(st.size());
