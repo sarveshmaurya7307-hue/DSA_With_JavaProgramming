@@ -27,11 +27,5 @@ public class nextGreatestEleArray {
         }
         System.out.println();
 
-        for(int ele : ans){
-            System.out.print(ele+" ");
-        }
-        System.out.println();
-
-
     }
 }
