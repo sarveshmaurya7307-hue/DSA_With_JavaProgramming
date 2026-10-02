@@ -10,26 +10,20 @@ import java.util.*;
 //        }
 //    }
 public class inputInsert {
-
         public static Node insert(Node root, int x) {
-
             if (root == null) {
                 return new Node(x);
             }
-
             if (x < root.val) {
                 root.left = insert(root.left, x);
             } else {
                 root.right = insert(root.right, x);
             }
-
             return root;
         }
 
         public static void main(String[] args) {
-
             Scanner sc = new Scanner(System.in);
-
             int n = sc.nextInt();
 
             Node root = null;

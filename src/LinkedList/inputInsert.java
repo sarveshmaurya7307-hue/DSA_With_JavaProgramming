@@ -9,30 +9,21 @@ import java.util.*;
 //    }
 //}
 public class inputInsert {
-
         public static Node insert(Node head, int x) {
-
             Node newNode = new Node(x);
-
             if (head == null) {
                 return newNode;
             }
-
             Node temp = head;
-
             while (temp.next != null) {
                 temp = temp.next;
             }
-
             temp.next = newNode;
-
             return head;
         }
 
         public static void main(String[] args) {
-
             Scanner sc = new Scanner(System.in);
-
             int n = sc.nextInt();
 
             Node head = null;
@@ -41,7 +32,6 @@ public class inputInsert {
                 int x = sc.nextInt();
                 head = insert(head, x);
             }
-
             Node temp = head;
 
             while (temp != null) {
